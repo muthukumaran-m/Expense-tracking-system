@@ -2,123 +2,157 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>New Entry | Expense Tracking System</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>New Entry | Expense Tracking System</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="C:/Users/AvoidErrors/Desktop/Expense Management System/js/script.js"></script>
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script
+	src="C:/Users/AvoidErrors/Desktop/Expense Management System/js/script.js"></script>
 </head>
 
-<body style="margin: 0% 10%; background-image: url(http://blog.hostbaby.com/wp-content/uploads/2013/07/scuffedstatic_blue_1920x1234.jpg); color: floralwhite;">
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html" style="color: floralwhite; ">Expense Tracking System</a>
-            </div>
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li class="active">
-                    <a href="addentry.html">New Entry</a>
-                </li>
-                <li>
-                    <a href="#">Trace Expenses</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <h1 style="text-align: center; margin: 3%;">New Entry</h1>
-    <form class="form-horizontal" action="id">
-        <div class="form-group">
-            <label class="control-label col-sm-2" for="date">Entry Date:</label>
-            <div class="col-sm-10">
-                <input type="date" name="edate"	 class="form-control" id="date" placeholder="Enter Date">
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="control-label col-sm-2" for="amt">Amount:</label>
-            <div class="col-sm-10">
-                <input type="number" name="amount" class="form-control" id="amt" placeholder="Enter Amount in Rupees">
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="control-label col-sm-2" for="desc">Description:</label>
-            <div class="col-sm-10">
-                <input type="text" name="descr"  class="form-control" id="desc" placeholder="Write A Short Description">
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="control-label col-sm-2" for="loc">Location:</label>
-            <div class="col-sm-10">
-                <input type="text" name="loca" class="form-control" id="loc" placeholder="Location">
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="control-label col-sm-2" for="whom">To Whom:</label>
-            <div class="col-sm-10">
-                <input type="text" name="payee" class="form-control" id="whom" placeholder="Shop Name / Payee">
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="control-label col-sm-2" for="mode">Mode Of Payment:</label>
-            <div class="col-sm-10">
-                <div class="radio-inline">
-                    <input type="radio" name="paymode" id="offpay">Offline Payment</div>
-                <div class="radio-inline">
-                    <input type="radio" name="paymode" id="paytmpay">Payment</div>
-                <div class="radio-inline">
-                    <input type="radio" name="paymode" id="debit">Debit Card</div>
-                <div class="radio-inline">
-                    <input type="radio" name="paymode" id="credit">Credit Card</div>
-                <div class="radio-inline">
-                    <input type="radio" name="paymode" id="phonepe">PhonePe</div>
-                <div class="radio-inline">
-                    <input type="radio" name="paymode" id="tez">Tez / Google Pay</div>
-                <div class="radio-inline">
-                    <input type="radio" name="paymode" id="others">Others</div>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="control-label col-sm-2" for="cato">Catagory:</label>
-            <div class="col-sm-10">
-                <div class="radio-inline">
-                    <input type="radio" name="catag" id="food">Food</div>
-                <div class="radio-inline">
-                    <input type="radio" name="catag" id="travel">Travel</div>
-                <div class="radio-inline">
-                    <input type="radio" name="catag" id="cloth">Cloths / Fashion</div>
-                <div class="radio-inline">
-                    <input type="radio" name="catag" id="med">Medical</div>
-                <div class="radio-inline">
-                    <input type="radio" name="catag" id="things">Things</div>
-                <div class="radio-inline">
-                    <input type="radio" name="catag" id="loan">Loan</div>
-                <div class="radio-inline">
-                    <input type="radio" name="catag" id="invest">Invest</div>
-                <div class="radio-inline">
-                    <input type="radio" name="catag" id="others">Others</div>
-            </div>
-        </div>
+<body
+	style="margin: 0% 10%; background-image: url(http://blog.hostbaby.com/wp-content/uploads/2013/07/scuffedstatic_blue_1920x1234.jpg); color: floralwhite;">
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html"
+					style="color: floralwhite;">Expense Tracking System</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a></li>
+				<li class="active"><a href="addentry.html">New Entry</a></li>
+				<li>
+					<form class="form-horizontal" action="te">
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<button name="b1" style="margin: 1%;" type="submit"
+									class="btn btn-default">Trace Expenses</button>
+							</div>
+						</div>
+					</form>
+				</li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</div>
+	</nav>
+	<h1 style="text-align: center; margin: 3%;">New Entry</h1>
+	<form class="form-horizontal" action="id">
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="date">Entry Date:</label>
+			<div class="col-sm-10">
+				<input type="date" name="edate" class="form-control" id="date"
+					placeholder="Enter Date">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="amt">Amount:</label>
+			<div class="col-sm-10">
+				<input type="number" name="amount" class="form-control" id="amt"
+					placeholder="Enter Amount in Rupees">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="desc">Description:</label>
+			<div class="col-sm-10">
+				<input type="text" name="descr" class="form-control" id="desc"
+					placeholder="Write A Short Description">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="loc">Location:</label>
+			<div class="col-sm-10">
+				<input type="text" name="loca" class="form-control" id="loc"
+					placeholder="Location">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="whom">To Whom:</label>
+			<div class="col-sm-10">
+				<input type="text" name="payee" class="form-control" id="whom"
+					placeholder="Shop Name / Payee">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="mode">Mode Of
+				Payment:</label>
+			<div class="col-sm-10">
+				<div class="radio-inline">
+					<input type="radio" name="paymode" value="Offline">Offline
+					Payment
+				</div>
+				<div class="radio-inline">
+					<input type="radio" name="paymode" value="PayTM">PayTM
+				</div>
+				<div class="radio-inline">
+					<input type="radio" name="paymode" value="DebitCard">Debit
+					Card
+				</div>
+				<div class="radio-inline">
+					<input type="radio" name="paymode" value="CreditCard">Credit
+					Card
+				</div>
+				<div class="radio-inline">
+					<input type="radio" name="paymode" value="PhonePe">PhonePe
+				</div>
+				<div class="radio-inline">
+					<input type="radio" name="paymode" value="Tez">Tez / Google
+					Pay
+				</div>
+				<div class="radio-inline">
+					<input type="radio" name="paymode" value="Others">Others
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="cato">Catagory:</label>
+			<div class="col-sm-10">
+				<div class="radio-inline">
+					<input type="radio" name="catag" value="Food">Food
+				</div>
+				<div class="radio-inline">
+					<input type="radio" name="catag" value="Travel">Travel
+				</div>
+				<div class="radio-inline">
+					<input type="radio" name="catag" value="Fashion">Cloths /
+					Fashion
+				</div>
+				<div class="radio-inline">
+					<input type="radio" name="catag" value="Medical">Medical
+				</div>
+				<div class="radio-inline">
+					<input type="radio" name="catag" value="Things">Things
+				</div>
+				<div class="radio-inline">
+					<input type="radio" name="catag" value="Loan">Loan
+				</div>
+				<div class="radio-inline">
+					<input type="radio" name="catag" value="Investment">Investment
+				</div>
+				<div class="radio-inline">
+					<input type="radio" name="catag" value="others">Others
+				</div>
+			</div>
+		</div>
 
-        <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-                <button name="b1" style="margin: 1%;" type="submit" class="btn btn-default">Submit</button>
-                <button style="margin: 1%;" type="reset" class="btn btn-default">Reset</button>
-            </div>
-        </div>
-    </form>
+		<div class="form-group">
+			<div class="col-sm-offset-2 col-sm-10">
+				<button name="b1" style="margin: 1%;" type="submit"
+					class="btn btn-default">Submit</button>
+				<button style="margin: 1%;" type="reset" class="btn btn-default">Reset</button>
+			</div>
+		</div>
+	</form>
 
 </body>
 

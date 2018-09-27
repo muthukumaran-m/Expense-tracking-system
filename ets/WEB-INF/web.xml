@@ -12,7 +12,7 @@
 		<url-pattern>/id</url-pattern>
 	</servlet-mapping>
 	<servlet>
-	<servlet-name>insdata</servlet-name>
-	<servlet-class>etsApp.InsertingData</servlet-class>
+		<servlet-name>insdata</servlet-name>
+		<servlet-class>etsApp.InsertingData</servlet-class>
 	</servlet>
 </web-app>
