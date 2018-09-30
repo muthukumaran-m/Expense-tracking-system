@@ -7,12 +7,4 @@
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
-	<servlet-mapping>
-		<servlet-name>insdata</servlet-name>
-		<url-pattern>/id</url-pattern>
-	</servlet-mapping>
-	<servlet>
-		<servlet-name>insdata</servlet-name>
-		<servlet-class>etsApp.InsertingData</servlet-class>
-	</servlet>
 </web-app>
