@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Trace | Expense Tracking System</title>
+<title>Home | Expense Tracking System</title>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -31,31 +31,35 @@
 					style="color: floralwhite;">Expense Tracking System</a>
 			</div>
 			<ul class="nav navbar-nav">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="addentry.html">New Entry</a></li>
-				<li class="active"><a href="trace.html">Trace Expenses</a></li>
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="process.jsp">New Entry</a></li>
+				<li><a href="trace.html">Trace Expenses</a></li>
 				<li><a href="about.html">About</a></li>
+				<li></li>
 			</ul>
 		</div>
 	</nav>
-	<div style="background-color:">
-		<form class="form-inline" action="tdd" style="margin: 5;">
-			<div class="form-group">
-				<label class="" for="date">Show Data On:</label> <input
-					style="margin: 0 32px;" type="date" name="edate"
-					class="form-control" id="date" placeholder="Enter Date">
-			</div>
-			<button name="b1" style="margin: 1%;" type="submit"
-				class="btn btn-default">Submit</button>
-	</div>
-	</form>
-	</div>
-	<div class="row" style="align: centre;">
+
+	<div class="row" style="margin-top: 25%; margin-left: 8%;">
 		<div class="col-sm-4">
-			<span style="color: floralwhite;"><b>Show All Data:</b></span>
-			<button type="button" class="btn btn-default" style="margin: 0% 10%;">
-				<a style="text-decoration: none; color: black" href="tad">Show
-					Data</a>
+			<button type="button" class="btn btn-danger btn-lg space"
+				style="margin: 0% 10%">
+				<a style="text-decoration: none; color: floralwhite"
+					href="process.jsp">New Entry</a>
+			</button>
+		</div>
+		<div class="col-sm-4">
+			<button type="button" class="btn btn-warning btn-lg space"
+				style="margin: 0% 10%">
+				<a style="text-decoration: none; color: floralwhite"
+					href="trace.html">Trace Expenses</a>
+			</button>
+		</div>
+		<div class="col-sm-4">
+			<button type="button" class="btn btn-success btn-lg space"
+				style="margin: 0% 10%">
+				<a style="text-decoration: none; color: floralwhite"
+					href="about.html">About</a>
 			</button>
 		</div>
 	</div>
